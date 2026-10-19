@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<journey name="Uber Journey Test">
+    <description xml:space="preserve">Verify the user can move through all screens and reach the result screen</description>
+    <actions xml:space="preserve">
+        <action>tap Start. The distance screen should appear with the text "Enter the total distance" and a field labeled "Distance in kilometers"</action>
+        <action>type 50 in the distance field</action>
+        <action>tap Next. The time screen should appear with the text "Enter the total time" and a field labeled "Time in minutes"</action>
+        <action>type 10 in the time field</action>
+        <action>tap Next. The traffic screen should show three options: "Feeling Lucky (+0%)", "Safe Zone (+5%)", "Heavy Traffic (+10%)", and a "Calculate Trip Price" button</action>
+        <action>select Feeling Lucky (+0%)</action>
+        <action>tap Calculate Trip Price. The result screen should show "Estimated trip price is:" 393  and "Egp"</action>
+    </actions>
+</journey>
