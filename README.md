@@ -17,7 +17,7 @@ An Android application built with **Kotlin and Jetpack Compose** to estimate tri
 - Kotlin Serialization
 - Compose Animation APIs
 
-🧪 Automated Testing
+🧪 Automated Testing with Journey Test
 
 The project includes an Android journey test that verifies the main user flow:
 
